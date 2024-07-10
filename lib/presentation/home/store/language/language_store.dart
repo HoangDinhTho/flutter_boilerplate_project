@@ -1,7 +1,8 @@
-import 'package:boilerplate/core/stores/error/error_store.dart';
-import 'package:boilerplate/domain/entity/language/Language.dart';
-import 'package:boilerplate/domain/repository/setting/setting_repository.dart';
 import 'package:mobx/mobx.dart';
+
+import '../../../../core/stores/error/error_store.dart';
+import '../../../../domain/entity/language/Language.dart';
+import '../../../../domain/repository/setting/setting_repository.dart';
 
 part 'language_store.g.dart';
 

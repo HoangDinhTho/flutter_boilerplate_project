@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:boilerplate/data/network/constants/endpoints.dart';
 import 'package:http/http.dart' as http;
 
+import 'constants/endpoints.dart';
 import 'exceptions/network_exceptions.dart';
 
 class RestClient {

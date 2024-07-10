@@ -1,11 +1,11 @@
-import 'package:boilerplate/core/stores/error/error_store.dart';
-import 'package:boilerplate/core/stores/form/form_store.dart';
-import 'package:boilerplate/domain/usecase/user/is_logged_in_usecase.dart';
-import 'package:boilerplate/domain/usecase/user/save_login_in_status_usecase.dart';
 import 'package:mobx/mobx.dart';
 
+import '../../../core/stores/error/error_store.dart';
+import '../../../core/stores/form/form_store.dart';
 import '../../../domain/entity/user/user.dart';
+import '../../../domain/usecase/user/is_logged_in_usecase.dart';
 import '../../../domain/usecase/user/login_usecase.dart';
+import '../../../domain/usecase/user/save_login_in_status_usecase.dart';
 
 part 'login_store.g.dart';
 
